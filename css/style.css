@@ -1,0 +1,75 @@
+/* Основные стили */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    display: inline-block;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Стили для секции hero */
+
+.hero {
+    background-image: url('../img/hero.jpg');
+    /* Замените на ваш путь к изображению */
+    height: 300px;
+    /* Высота секции */
+    color: white;
+    /* Цвет текста */
+    display: flex;
+    /* Используем flexbox для центрирования */
+    align-items: center;
+    /* Вертикальное центрирование */
+    justify-content: center;
+    /* Горизонтальное центрирование */
+}
+
+
+/* Стили для секций features и subscribe */
+
+.features,
+.subscribe {
+    padding: 20px;
+    /* Отступы вокруг секций */
+}
+
+.feature-item {
+    margin-bottom: 20px;
+    /* Отступ между элементами особенностей */
+}
+
+
+/* Стили для footer */
+
+.footer {
+    background-color: #333;
+    /* Цвет фона */
+    color: white;
+    /* Цвет текста */
+    text-align: center;
+    /* Центрируем текст */
+}
