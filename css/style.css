@@ -30,6 +30,30 @@ body {
     text-decoration: none;
 }
 
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    /* Позволяет элементам переноситься на новую строку */
+}
+
+.product-item {
+    margin: 20px;
+    /* Отступы между товарами */
+    text-align: center;
+    /* Центрируем текст */
+}
+
+.product-image {
+    width: 200px;
+    /* Фиксированная ширина */
+    height: 200px;
+    /* Фиксированная высота */
+    object-fit: cover;
+    /* Сохраняет пропорции изображения и обрезает его при необходимости */
+    border-radius: 8px;
+    /* Закругляем углы изображений */
+}
+
 
 /* Стили для секции hero */
 
