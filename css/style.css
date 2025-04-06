@@ -137,3 +137,46 @@ body {
     border-radius: 8px;
     /* Закругляем углы изображений */
 }
+
+.subscribe {
+    background-color: #f9f9f9;
+    /* Светлый фон для секции подписки */
+    padding: 20px;
+    /* Отступы вокруг секции */
+}
+
+.subscribe form {
+    display: flex;
+    /* Используем flexbox для выравнивания элементов формы */
+}
+
+.subscribe input[type=email] {
+    flex: 1;
+    /* Занимаем оставшееся пространство */
+    padding: 10px;
+    /* Отступы внутри поля ввода */
+    border: 1px solid #ccc;
+    /* Рамка вокруг поля ввода */
+    border-radius: 4px;
+    /* Закругляем углы поля ввода */
+}
+
+.subscribe button {
+    padding: 10px 15px;
+    /* Отступы внутри кнопки */
+    background-color: #333;
+    /* Цвет фона кнопки */
+    color: white;
+    /* Цвет текста кнопки */
+    border: none;
+    /* Убираем рамку у кнопки */
+    border-radius: 4px;
+    /* Закругляем углы кнопки */
+    cursor: pointer;
+    /* Указываем, что элемент кликабельный */
+}
+
+.subscribe button:hover {
+    background-color: #555;
+    /* Изменяем цвет фона при наведении на кнопку */
+}
